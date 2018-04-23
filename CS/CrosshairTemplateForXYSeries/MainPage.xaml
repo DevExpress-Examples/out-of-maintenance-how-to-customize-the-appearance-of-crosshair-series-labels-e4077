@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="CrosshairTemplateForXYSeries.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400" >
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxc:ChartControl >
+            <!--region #CrosshairOptions-->
+            <dxc:ChartControl.CrosshairOptions>
+                <dxc:CrosshairOptions ShowArgumentLabels="True" ShowArgumentLine="True" 
+                                      ShowValueLabels="True" ShowValueLine="True" 
+                                      ShowCrosshairLabels="True"/>
+            </dxc:ChartControl.CrosshairOptions>
+            <!--endregion #CrosshairOptions-->
+            <dxc:XYDiagram2D>
+                <dxc:BarSideBySideSeries2D ColorEach="True">
+                    <dxc:BarSideBySideSeries2D.Points>
+                    <dxc:SeriesPoint Argument="A" Value="2" />
+                    <dxc:SeriesPoint Argument="B" Value="3" />
+                    <dxc:SeriesPoint Argument="C" Value="6" />
+                    <dxc:SeriesPoint Argument="D" Value="4" />
+                    <dxc:SeriesPoint Argument="E" Value="5" />
+                    </dxc:BarSideBySideSeries2D.Points>
+                    <dxc:BarSideBySideSeries2D.CrosshairLabelTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Border Background="Aquamarine" BorderThickness="2" CornerRadius="9"/>
+                                <TextBlock Text="{Binding Text}" Foreground="Blue" Padding="5,1,5,1.5"/>
+                            </Grid>                              
+                        </DataTemplate>
+                    </dxc:BarSideBySideSeries2D.CrosshairLabelTemplate>
+                </dxc:BarSideBySideSeries2D>              
+            </dxc:XYDiagram2D>
+        </dxc:ChartControl>
+    </Grid>
+</UserControl>

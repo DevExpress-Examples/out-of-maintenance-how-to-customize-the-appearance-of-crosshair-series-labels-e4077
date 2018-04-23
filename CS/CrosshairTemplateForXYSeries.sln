@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosshairTemplateForXYSeries", "CrosshairTemplateForXYSeries\CrosshairTemplateForXYSeries.csproj", "{6CECF3C7-A550-4979-8C5E-6D20FBB357C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosshairTemplateForXYSeries.Web", "CrosshairTemplateForXYSeries.Web\CrosshairTemplateForXYSeries.Web.csproj", "{6E0902A8-2A6A-4002-85E8-273347E6C57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CECF3C7-A550-4979-8C5E-6D20FBB357C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CECF3C7-A550-4979-8C5E-6D20FBB357C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CECF3C7-A550-4979-8C5E-6D20FBB357C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CECF3C7-A550-4979-8C5E-6D20FBB357C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0902A8-2A6A-4002-85E8-273347E6C57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0902A8-2A6A-4002-85E8-273347E6C57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0902A8-2A6A-4002-85E8-273347E6C57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0902A8-2A6A-4002-85E8-273347E6C57E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
