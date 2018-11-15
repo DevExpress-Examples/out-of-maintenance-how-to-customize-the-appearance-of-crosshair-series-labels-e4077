@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./CS/CrosshairTemplateForXYSeries/MainPage.xaml) (VB: [MainPage.xaml](./VB/CrosshairTemplateForXYSeries/MainPage.xaml))
+<!-- default file list end -->
 # How to customize the appearance of crosshair series  labels
 
 
